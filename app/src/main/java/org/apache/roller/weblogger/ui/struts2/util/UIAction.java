@@ -94,7 +94,6 @@ public abstract class UIAction extends ActionSupport
 	
     /**
      * Necessary to avoid showing up "Error setting expression 'salt' with value ...".
-     * See also https://issues.apache.org/jira/browse/ROL-2068
      * @param salt previous salt
      */
     public void setSalt(String salt) {

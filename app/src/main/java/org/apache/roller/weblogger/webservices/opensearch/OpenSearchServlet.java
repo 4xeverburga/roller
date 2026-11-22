@@ -34,8 +34,6 @@ import org.apache.roller.weblogger.util.Utilities;
 
 /**
  * Return OpenSearch descriptor that describes Roller's search facilities.
- * For more informaton see the 
- * <a href="http://cwiki.apache.org/confluence/display/ROLLER/Proposal+OpenSearch">OpenSearch proposal</a>.
  * @author Dave Johnson (<a href="mailto:davidm.johnson@sun.com">davidm.johnson@sun.com</a>)
  */
 public class OpenSearchServlet extends HttpServlet {
