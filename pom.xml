@@ -34,13 +34,11 @@ limitations under the License.
         Roller is an open source blog server built with open source Java
         libraries including Struts2, Velocity, ROME and Guice.
     </description>
-    <url>http://roller.apache.org</url>
     <inceptionYear>2002</inceptionYear>
 
+    <!-- buildnumber-maven-plugin needs a connection to read the revision from -->
     <scm>
-        <url>https://github.com/apache/roller</url>
-        <connection>scm:git:git://github.com/apache/roller.git</connection>
-        <developerConnection>scm:git:git@github.com:apache/roller.git</developerConnection>
+        <connection>scm:git:file://.</connection>
     </scm>
 
     <properties>

@@ -1,8 +1,8 @@
-# Apache Roller
+# Roller
 
-[Apache Roller](http://roller.apache.org) is a Java-based, full-featured,
-multi-user and group-blog server suitable for blog sites large and small.
-Roller is typically run with Apache Tomcat and MySQL.
+Roller is a Java-based, full-featured, multi-user and group-blog server
+suitable for blog sites large and small. Roller is typically run with
+Apache Tomcat and MySQL.
 Roller is made up of the following Maven projects:
 
 * _roller-project_:         Top level project
@@ -13,31 +13,16 @@ Roller is made up of the following Maven projects:
 
 ## Documentation
 
-The Roller Install, User and Template Guides are available in ODT format
-(for OpenOffice or LibraOffice):
-
-* https://github.com/apache/roller/tree/master/docs
-
-## For more information
-
-Hit the Roller Confluence wiki:
-
-* How to build and run Roller: https://cwiki.apache.org/confluence/x/EM4
-* How to contribute to Roller: https://cwiki.apache.org/confluence/x/2hsB
-* How to make a release of Roller: https://cwiki.apache.org/confluence/x/gycB
-* Other developer resources: https://cwiki.apache.org/confluence/x/D84
+The User and Template Guides are in `docs/`, in ODT format (for
+OpenOffice or LibreOffice). Building, configuring and running the webapp
+on Tomcat is described in `AGENTS.md`.
 
 ## Quick start
 
-Assuming you've got a UNIX shell, Java, Maven and Git:
-
-Get the code:
-
-    $ git clone https://github.com/apache/roller.git
+Assuming you've got a UNIX shell, Java and Maven:
 
 Build and test the code:
 
-    $ cd roller
     $ mvn clean install
 
 Run Roller in Jetty with Derby database:
@@ -46,9 +31,3 @@ Run Roller in Jetty with Derby database:
     $ mvn jetty:run
 
 Browse to http://localhost:8080/roller
-
-
-
-
-
-

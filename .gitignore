@@ -1,1 +1,5 @@
 ./tomcat/*
+
+# Maven build output
+target/
+velocity.log
